@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#navbar{
+    display: flex;
+    background-color: blueviolet;
+    height: 7vh;
+    align-items: center;
+    margin-bottom: 7vh;
+
+}
+#appName{
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+#welcomeContainer{
+    display: flex;
+    justify-content: center;
+    margin: 7vh;
+}
+#getstarted{
+    display: flex;
+    justify-content: center;
+}
+#loginBtn{
+    margin: 1vh;
+    padding: 1vh;
+    width: 15vw;
+}
+#registerBtn{
+    margin: 1vh;
+    padding: 1vh;
+    width: 15vw;
+}

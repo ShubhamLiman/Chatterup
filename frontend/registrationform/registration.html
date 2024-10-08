@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="appName">Chatter Up</div>
+    </div>
+    <div id="welcomeContainer">
+        <h1 id="welcomeMsg">Welcome to ChatterUp</h1>
+    </div>
+    <div id="registerForm">
+        <form>
+            <div id="usernameOfR">
+                <input type="text" id="userName-R" name="userName" placeholder="Name">
+            </div>
+            <div id="emailOfR">
+                <input type="text" id="email" name="email" placeholder="Email">
+            </div>
+            <div id="passwordOfR">
+                <input type="password" id="password-R" name="password" placeholder="Password">
+            </div>
+            <div id = 'submitBtnofR'>
+                <input type="submit" id="sendData" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+    <div id="tologin" style="display: none;">
+        <div id="successMsg"></div>
+        <button id="gologinbtn" disabled = "true" style="display: none;">GO TO LOGIN</button>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>

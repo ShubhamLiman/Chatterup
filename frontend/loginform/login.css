@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#navbar{
+    display: flex;
+    background-color: blueviolet;
+    height: 7vh;
+    align-items: center;
+    margin-bottom: 7vh;
+
+}
+#appName{
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+#welcomeContainer{
+    display: flex;
+    justify-content: center;
+    margin: 7vh;
+}
+#loginForm{
+    justify-content: center;
+    align-items: center;
+}
+#userNameOfL{
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+}
+#userName-L{
+    height: 4vh;
+    width: 15vw;
+    font-size: larger;
+}
+#password-L{
+    height: 4vh;
+    width: 15vw;
+    font-size: larger;
+}
+#passwordOfL{
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+}
+#submitBtnofL{
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+}
+#sendLogin{
+    margin: 1vh;
+    padding: 1vh;
+    width: 15vw;
+}
